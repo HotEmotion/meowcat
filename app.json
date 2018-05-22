@@ -1,13 +1,45 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/cat/add/add",
-    "pages/cat/view/view",
-    "pages/profile/profile",
-    "pages/profile/settings/settings",
-    "pages/profile/notifications/notifications",
     "pages/profile/notices/notices",
+    
+    "pages/profile/settings/settings",
+      "pages/profile/profile",
+        
+        "pages/cat/view/view",
+    "pages/cat/add/add",
+
     "pages/community/community",
-    "pages/timeline/timeline"
-  ]
+    "pages/timeline/timeline",
+    
+
+  
+    
+    "pages/profile/notifications/notifications"
+    
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "寻找猫",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/shome.png"
+      },
+      {
+        "text": "铲屎官社区",
+        "pagePath": "pages/community/community",
+        "iconPath": "images/caticon.png",
+        "selectedIconPath": "images/scat.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/self.png",
+        "selectedIconPath": "images/sself.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#CD9057"
+  }
 }

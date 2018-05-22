@@ -1,1 +1,49 @@
-/* pages/profile/settings/settings.wxss */
+.content{
+  width: 750rpx;
+  height: 100vh;
+  background-color:  #F0EFF4;
+}
+.bigitem{
+  width: 650rpx;
+}
+.title{
+  width: 650rpx;
+  padding: 20rpx 50rpx;
+  font-size: 32rpx;
+}
+.itembox{
+  padding: 0 50rpx;
+  background-color: white;
+}
+.item{
+  width: 650rpx;
+  padding: 20rpx 0;
+  border-bottom: 4rpx solid #F0EFF4;
+  font-size: 34rpx;
+}
+.value{
+  margin-left: 60rpx;
+}
+.item1{
+  border: 0;
+}
+.items{
+  padding: 20rpx 50rpx;
+  background-color: white;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 34rpx;
+}
+.items image{
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+}
+.items text{
+  float: left;
+  margin-left: 60rpx;
+}
+.items switch{
+  float: right;
+  height: 50rpx;
+}

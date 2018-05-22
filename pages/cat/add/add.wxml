@@ -1,2 +1,31 @@
-<!--pages/cat/add/add.wxml-->
-<text>pages/cat/add/add.wxml</text>
+<view class='head'>
+  <text class='title'>图片</text>
+  <view class='img'>
+    <view class='add'>
+      <text>+</text>
+      <text>添加图片</text>
+    </view>
+    <image src='/images/mao1.jpg'></image>
+    <image src='/images/mao1.jpg'></image>
+  </view>
+</view>
+<form>
+  <view class='content'>
+    <view class='item item2 '>
+      <text>名字</text>
+      <input name="name" style="background-color: #FFFFFF;" class='input' placeholder="给它取个名字吧" />
+    </view>
+    <view class='item'>
+      <text>特征</text>
+      <textarea placeholder="简单形容一下它" class='input input1'></textarea>
+    </view>
+    <view class='item item1'>
+      <text>关注它</text>
+      <switch style='color:#CD9057'></switch>
+    </view>
+  </view>
+  <view class='submit'>
+    <text style='font-size:26rpx;'>你将会收到关于它的消息</text>
+    <button class='btn'>提交</button>
+  </view>
+</form>

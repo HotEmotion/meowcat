@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    name:"啦啦啦",
+    tezheng:"长得特别好看长得特别好看长得特别好看长得特别好看",
+    imgUrl: ['/images/mao1.jpg', '/images/mao2.jpg', '/images/mao3.jpg',]
   },
 
   /**

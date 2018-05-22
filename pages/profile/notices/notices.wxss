@@ -1,1 +1,13 @@
-/* pages/profile/notices/notices.wxss */
+.content{
+  width: 650rpx;
+  padding: 50rpx;
+}
+.content text{
+  font-size: 32rpx;
+  display: block;
+  padding-top: 20rpx;
+}
+.content .title{
+  font-size: 38rpx;
+  font-weight: bold
+}

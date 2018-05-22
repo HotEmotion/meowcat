@@ -1,1 +1,178 @@
-/* pages/timeline/timeline.wxss */
+#header{
+  width: 750rpx;
+  height: 170rpx;
+  margin-top: 50rpx;
+}
+.mao{
+ width: 120rpx;
+ height: 120rpx;
+ border-radius: 50%; 
+ margin-left: 50rpx;
+ float: left;
+}
+.biaoti{
+  height: 100%;
+  float: left;
+  margin-left: 20rpx;
+  line-height: 120rpx;
+  font-size: 36rpx;
+}
+.mark{
+  color: #CD9057
+}
+.nomark{
+  color: #C0C0C0
+}
+.sexbox{
+  float: left;
+  margin-top: 36rpx
+}
+.sex{
+  width: 60rpx;
+  height: 60rpx;
+}
+.fatie{
+  float: right;
+  width: 100rpx;
+  margin-right: 50rpx;
+  height: 100%;
+  line-height: 120rpx;
+  font-size: 36rpx;
+  color: #CD9057
+}
+.wenzi{
+  float: right
+}
+#item{
+  width: 100vh;
+  
+}
+.item_head{
+  width: 100%;
+  height: 32rpx
+}
+.round_out{
+  margin-left: 94rpx;
+  width: 32rpx;
+  height: 32rpx;
+  border:1px solid #CD9057;
+  border-radius: 100%;
+  float: left;
+}
+.round_in{
+  margin: 2rpx;
+  width: 28rpx;
+  height: 28rpx;
+  background-color: #CD9057;
+  border-radius: 100%;
+}
+.item_head text{
+  float: left;
+  font-size: 28rpx;
+  margin-left: 10rpx;
+  color: #CD9057
+}
+.item_head .date{
+  margin-left: 50rpx
+}
+.item_content_box{
+  width: 640rpx;
+  margin-top: 4rpx;
+  margin-left: 110rpx;
+  border-left: 4rpx solid #CD9057;
+  padding-bottom: 50rpx
+}
+.item_content{
+  width: 530rpx;
+  margin-left: 50rpx;
+  font-size: 36rpx;
+  padding-top: 30rpx
+}
+
+.images1,.images2,.images3{
+  width: 530rpx;
+  margin-top: 30rpx;
+}
+.images2 image{
+  margin-right: 10rpx;
+  width: 208rpx;
+  height: 117rpx;
+}
+.images1 image{
+  margin-right: 10rpx;
+  width: 400rpx;
+  height: 225rpx;
+}
+.images3 image{
+  margin-right: 10rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.hudong{
+  width: 100%;
+  height: 80rpx;
+}
+.hudong view{
+  width: 140rpx;
+  height: 64rpx;
+  padding-top: 16rpx;
+  margin-left: 10rpx;
+  float: left;
+  color: #A0A1A4
+}
+.hudong view image{
+  width: 40rpx;
+  height: 40rpx;
+  float: left
+}
+.hudong view text{
+  float: left;
+  margin-left: 10rpx;
+  font-size: 30rpx
+}
+.comment{
+  width: 520rpx;
+  background-color: #EFEFEF;
+  padding: 10rpx; 
+  font-size: 30rpx;
+}
+.comment_content{
+  color: #919296;
+}
+.user{
+  width: 750rpx;
+  position: absolute;
+  top: 0;
+  background-color: #CD9057;
+  padding-bottom: 50rpx
+}
+.hide{
+  display: none;
+}
+.user view{
+  width: 100%;
+  height: 50rpx;
+  padding-top: 10rpx;
+  padding-left: 80rpx;
+  color: rgba(255,255,255,0.8)
+}
+.key{
+  display: block;
+  width: 100rpx;
+  float: left
+}
+.user .value{
+  display: block;
+  width: 500rpx;
+  margin-left: 20rpx;
+  float: left;
+  color: white;
+}
+.user_img{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  top: 10rpx;
+  right: 50rpx;
+}

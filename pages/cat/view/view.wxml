@@ -1,2 +1,25 @@
-<!--pages/cat/view/view.wxml-->
-<text>pages/cat/view/view.wxml</text>
+<view class='content'>
+  <swiper indicator-dots='true'>
+    <swiper-item wx:for="{{imgUrl}}">
+      <image src='{{item}}'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='intro'>
+    <text class='key'>名字</text>
+    <text class='value'>{{name}}</text>
+  </view>
+
+  <view class='intro intro1'>
+    <text class='key'>特征</text>
+    <text class='value'>{{tezheng}}</text>
+  </view>
+
+  <view class='btn btn1'>
+    <button>关注它</button>
+  </view>
+
+  <view class='btn btn2'>
+    <button>找它去</button>
+  </view>
+</view>

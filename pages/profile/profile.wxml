@@ -1,2 +1,34 @@
-<!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class='content'>
+  <view class='head'>
+
+    <open-data type="userAvatarUrl" class="touxiang"></open-data>
+    <view class='name'>
+      <open-data type="userNickName"></open-data>
+    </view> 
+    <view class='name'>
+      <text>猫积分：</text>
+      <text>{{score}}</text>
+    </view>
+  </view>
+
+  <view class='item item2'bindtap='navigateToSetting'>
+      <image src='/images/setting.png'></image>
+      <text>设置</text>
+      <image src='/images/jiantou.png' class='jiantou'></image>
+  </view>
+  <view class='item' bindtap='navigateToNotifications'>
+      <image src='/images/tongzhi.png'></image>
+      <text>消息通知</text>
+      <image src='/images/jiantou.png' class='jiantou'></image>
+  </view>
+  <view class='item item1' bindtap='navigateToTimeline'>
+      <image src='/images/caticon.png'></image>
+      <text>我的时间轴</text>
+      <image src='/images/jiantou.png' class='jiantou'></image>
+  </view>
+  <view class='item item1' bindtap='navigateToNotice'>
+      <image src='/images/notice.png'></image>
+      <text>须知</text>
+      <image src='/images/jiantou.png' class='jiantou'></image>
+  </view>
+</view>

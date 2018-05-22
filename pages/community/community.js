@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    userList: [
+      {
+        userName: "热情调",
+        catName: "咚咚咚",
+        catLei: "狸花猫",
+        catSex: false,
+        catTe: "长得好看，非常好看长得好看，非常好看长得好看，非常好看长得好看，非常好看长得好看，非常好看",
+        catImg:'/images/mao1.jpg'
+      },
+      {
+        userName: "冷情绪",
+        catName: "哈哈哈哈",
+        catLei: "狸花猫",
+        catSex: true,
+        catTe: "长得好看，非常好看长得好看，非常好看长得好看，非常好看长得好看，非常好看长得好看，非常好看",
+        catImg: '/images/mao2.jpg'
+      }
+    ],
   },
 
   /**
@@ -62,5 +79,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  navigate:function(){
+    wx.navigateTo({
+      url: '/pages/timeline/timeline'
+    })
   }
 })

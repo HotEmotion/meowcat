@@ -1,2 +1,6 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<map id='map' latitude="{{latitude}}" longtitude="{{longtitude}}" markers='{{markers}}'></map>
+<view class='find' bindtap='navigate'>
+  <text>发现猫了</text>
+</view>
+
+

@@ -1,1 +1,44 @@
-/* pages/cat/view/view.wxss */
+.content{
+  width: 100vh;
+  height: 100vh;
+  padding: 20rpx 50rpx;
+}
+swiper{
+  width: 650rpx;
+  height: 400rpx;
+}
+.intro{
+  width: 650rpx;
+  height: 60rpx;
+}
+.intro1{
+  height: 160rpx;
+}
+.intro text{
+  display: block;
+  float: left;
+}
+.key{
+  width: 100rpx;
+  color: #979797;
+}
+.value{
+  margin-left: 80rpx;
+  width: 470rpx;
+}
+.btn{
+  width: 650rpx;
+  height: 92rpx;
+  
+}
+.btn1 button{
+  background-color: #CD9057;
+  color: white;
+}
+.btn2 button{
+  background-color: #632307;
+  color: white;
+}
+.intro,.btn{
+  margin-top: 30rpx;
+}

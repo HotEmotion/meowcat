@@ -1,2 +1,12 @@
-<!--pages/community/community.wxml-->
-<text>pages/community/community.wxml</text>
+<view id="header">
+  <text class='remen'>热门时间轴</text>
+  <text class='tie'>+发帖</text>
+</view>
+<view class='item'  wx:for="{{userList}}" bindtap='navigate' wx:key="{{userName}}">
+  <image src='{{item.catImg}}'></image>
+  <view class='introduce'>
+    <text>{{item.catName}}</text>
+    <text>2018.5.2</text>
+    <text>{{item.userName}}</text>
+  </view>
+</view>

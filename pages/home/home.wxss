@@ -1,1 +1,17 @@
-/* pages/home/home.wxss */
+#map {
+  width: 100vh;
+  height: 100vh
+}
+.find{
+  width: 200rpx;
+  height: 80rpx;
+  background-color: #CD9057;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8rpx;
+  color: white
+}

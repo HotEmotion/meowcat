@@ -5,14 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    score:166,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      name:wx.getStorageInfoSync('name'),
+      imgUrl: wx.getStorageSync('avatar')
+    })
   },
 
   /**
@@ -62,5 +65,25 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+  navigateToTimeline: function(){
+    wx.navigateTo({
+      url: '/pages/timeline/timeline',
+    })
+  },
+  navigateToSetting: function(){
+    wx.navigateTo({
+      url: '/pages/profile/settings/settings',
+    })
+  },
+  navigateToNotice: function () {
+    wx.navigateTo({
+      url: '/pages/profile/notices/notices',
+    })
+  },
+  navigateToNotifications: function () {
+    wx.navigateTo({
+      url: '/pages/profile/notifications/notifications',
+    })
+  },
 })
